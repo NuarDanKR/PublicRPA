@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>944,847</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>944,887</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="24">
@@ -37,7 +37,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="25">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="50">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -63,6 +63,7 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Flowchart sap:VirtualizedContainerService.HintSize="924,787" sap2010:WorkflowViewState.IdRef="Flowchart_1">
@@ -108,13 +109,13 @@
               <av:PointCollection x:Key="ConnectorLocation">140,280 120,280 120,584.02 480,584.02 480,614.02</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:ReadPDFWithOCR DegreeOfParallelism="-1" DisplayName="Read PDF With OCR" FileName="[InputFile]" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="ReadPDFWithOCR_1" ImageDpi="150" Range="All" Text="[str_Out]">
+          <ui:ReadPDFWithOCR DegreeOfParallelism="-1" DisplayName="Read PDF With OCR" FileName="[InputFile]" sap:VirtualizedContainerService.HintSize="334,131" sap2010:WorkflowViewState.IdRef="ReadPDFWithOCR_1" ImageDpi="150" Range="All" Text="[str_Out]">
             <ui:ReadPDFWithOCR.OCREngine>
               <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
                 <ActivityFunc.Argument>
                   <DelegateInArgument x:TypeArguments="sd1:Image" Name="Image" />
                 </ActivityFunc.Argument>
-                <ui:GoogleCloudOCR FilterRegion="{x:Null}" Output="{x:Null}" Profile="{x:Null}" Scale="{x:Null}" ApiKey="AIzaSyBzzm2yus9hDzKg_XlBjcstMJPGX_sF0JU" ComputeSkewAngle="False" DisplayName="Google Cloud Vision OCR" ExtractWords="False" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="GoogleCloudOCR_1" Image="[Image]" Language="ko" ResizeToApiLimits="False" Text="[str_Out]" />
+                <ui:GoogleCloudOCR FilterRegion="{x:Null}" Output="{x:Null}" Profile="{x:Null}" Scale="{x:Null}" ApiKey="[in_Config(&quot;api_key&quot;).ToString]" ComputeSkewAngle="False" DisplayName="Google Cloud Vision OCR" ExtractWords="False" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="GoogleCloudOCR_1" Image="[Image]" Language="ko" ResizeToApiLimits="False" Text="[str_Out]" />
               </ActivityFunc>
             </ui:ReadPDFWithOCR.OCREngine>
             <sap:WorkflowViewStateService.ViewState>
@@ -180,7 +181,7 @@
                       <av:PointCollection x:Key="ConnectorLocation">240,481 240,511 480,511 480,614.02</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:GoogleCloudOCR FilterRegion="{x:Null}" Output="{x:Null}" Profile="{x:Null}" Scale="{x:Null}" ApiKey="AIzaSyBzzm2yus9hDzKg_XlBjcstMJPGX_sF0JU" ComputeSkewAngle="False" DisplayName="Google Cloud Vision OCR" ExtractWords="True" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="GoogleCloudOCR_2" Image="[ImageFile]" Language="ko" ResizeToApiLimits="False" Result="[test]" Text="[str_Out]">
+                  <ui:GoogleCloudOCR FilterRegion="{x:Null}" Output="{x:Null}" Profile="{x:Null}" Scale="{x:Null}" ApiKey="[in_Config(&quot;api_key&quot;).ToString]" ComputeSkewAngle="False" DisplayName="Google Cloud Vision OCR" ExtractWords="True" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="GoogleCloudOCR_2" Image="[ImageFile]" Language="ko" ResizeToApiLimits="False" Result="[test]" Text="[str_Out]">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>

@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1035,1024</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1035,984</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="24">
@@ -64,6 +64,9 @@
       <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
       <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>UiPath.Java.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.DependencyModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Flowchart DisplayName="Main Process" sap:VirtualizedContainerService.HintSize="1015,924" sap2010:WorkflowViewState.IdRef="Flowchart_2">
@@ -163,14 +166,6 @@
                 <InArgument x:TypeArguments="x:String">[Path.GetExtension(InputFile).ToLower()]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
-            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
-              <ui:AssignOperation.To>
-                <OutArgument x:TypeArguments="x:Object">[in_Config("exp_msg")]</OutArgument>
-              </ui:AssignOperation.To>
-              <ui:AssignOperation.Value>
-                <InArgument x:TypeArguments="x:Object">[new Dictionary(Of Integer, String)]</InArgument>
-              </ui:AssignOperation.Value>
-            </ui:AssignOperation>
           </scg:List>
         </ui:MultipleAssign.AssignOperations>
         <sap:WorkflowViewStateService.ViewState>
@@ -191,7 +186,7 @@
               </sap:WorkflowViewStateService.ViewState>
               <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke UnsupportedExtension workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Custom\UnsupportedExtension.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_Msg">[Path.GetFileName(InputFile)+"는 지원하지 않는 파일형식 입니다."]</InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_Msg">[Path.GetFileName(InputFile)+"&lt;-- 지원하지 않는 파일 형식"]</InArgument>
                   <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[in_Config]</InArgument>
                 </ui:InvokeWorkflowFile.Arguments>
                 <sap:WorkflowViewStateService.ViewState>
@@ -296,7 +291,7 @@
                               <ActivityFunc.Argument>
                                 <DelegateInArgument x:TypeArguments="sd1:Image" Name="Image" />
                               </ActivityFunc.Argument>
-                              <ui:GoogleCloudOCR FilterRegion="{x:Null}" Output="{x:Null}" Profile="{x:Null}" Scale="{x:Null}" Text="{x:Null}" ApiKey="AIzaSyBzzm2yus9hDzKg_XlBjcstMJPGX_sF0JU" ComputeSkewAngle="False" DisplayName="Google Cloud Vision OCR" ExtractWords="False" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="GoogleCloudOCR_3" Image="[Image]" Language="ko" ResizeToApiLimits="False" />
+                              <ui:GoogleCloudOCR FilterRegion="{x:Null}" Output="{x:Null}" Profile="{x:Null}" Scale="{x:Null}" Text="{x:Null}" ApiKey="[in_Config(&quot;api_key&quot;).ToString]" ComputeSkewAngle="False" DisplayName="Google Cloud Vision OCR" ExtractWords="False" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="GoogleCloudOCR_3" Image="[Image]" Language="ko" ResizeToApiLimits="False" />
                             </ActivityFunc>
                           </ui:ReadPDFWithOCR.OCREngine>
                           <sap:WorkflowViewStateService.ViewState>
@@ -324,7 +319,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke UnsupportedExtension workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="Custom\UnsupportedExtension.xaml">
               <ui:InvokeWorkflowFile.Arguments>
-                <InArgument x:TypeArguments="x:String" x:Key="in_Msg">[Path.GetFileNameWithoutExtension(InputFile) +" : 한글 파일은 아직 지원하지 않습니다."]</InArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="in_Msg">[Path.GetFileNameWithoutExtension(InputFile) +" &lt;-- 미지원 한글 버전"]</InArgument>
                 <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[in_Config]</InArgument>
               </ui:InvokeWorkflowFile.Arguments>
               <sap:WorkflowViewStateService.ViewState>
@@ -347,6 +342,7 @@
                 <InArgument x:TypeArguments="x:String" x:Key="in_InputFile">[InputFile]</InArgument>
                 <OutArgument x:TypeArguments="scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))" x:Key="out_Result">[ocr_Result]</OutArgument>
                 <OutArgument x:TypeArguments="x:String" x:Key="out_strRes">[str_OcrRes]</OutArgument>
+                <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[in_Config]</InArgument>
               </ui:InvokeWorkflowFile.Arguments>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">

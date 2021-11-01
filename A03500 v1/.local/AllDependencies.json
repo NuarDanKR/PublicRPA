@@ -2415,9 +2415,9 @@
     "restore": {
       "projectUniqueName": "A03500",
       "projectName": "A03500",
-      "projectPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\Sources\\A03500\\.local",
+      "projectPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A03500 v1\\.local",
       "packagesPath": "C:\\Users\\DW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\Sources\\A03500\\.local"
+      "outputPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A03500 v1\\.local"
     },
     "frameworks": {
       "net461": {
@@ -2465,28 +2465,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'asprise-ocr-api 15.3.1.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "asprise-ocr-api"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'asprise-ocr-dll-bundle-64 15.3.1.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "asprise-ocr-dll-bundle-64"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'asprise-ocr-dll-bundle-32 15.3.1.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "asprise-ocr-dll-bundle-32"
-    }
-  ]
+  }
 }

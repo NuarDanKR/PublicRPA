@@ -2,6 +2,17 @@
   "Packages": [
     {
       "Package": {
+        "Id": "asprise-ocr-api",
+        "Version": "15.3.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\DW\\.nuget\\packages\\asprise-ocr-api/15.3.1\\lib/net40/asprise-ocr-api.dll",
+        "C:\\Users\\DW\\.nuget\\packages\\asprise-ocr-dll-bundle-32/15.3.1\\lib/net40/asprise-ocr-dll-bundle-32.dll",
+        "C:\\Users\\DW\\.nuget\\packages\\asprise-ocr-dll-bundle-64/15.3.1\\lib/net40/asprise-ocr-dll-bundle-64.dll"
+      ]
+    },
+    {
+      "Package": {
         "Id": "DongwonCommonLibrary",
         "Version": "1.0.7632.26420"
       },
@@ -227,17 +238,6 @@
         "C:\\Users\\DW\\.nuget\\packages\\uipath.vision/2.0.0\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
         "C:\\Users\\DW\\.nuget\\packages\\uipath.vision/2.0.0\\lib/net452/UiPath.Vision.Tesseract.dll",
         "C:\\Users\\DW\\.nuget\\packages\\uipath.vision/2.0.0\\lib/net452/UiPath.Vision.dll"
-      ]
-    },
-    {
-      "Package": {
-        "Id": "asprise-ocr-api",
-        "Version": "15.3.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\DW\\.nuget\\packages\\asprise-ocr-api/15.3.1\\lib/net40/asprise-ocr-api.dll",
-        "C:\\Users\\DW\\.nuget\\packages\\asprise-ocr-dll-bundle-32/15.3.1\\lib/net40/asprise-ocr-dll-bundle-32.dll",
-        "C:\\Users\\DW\\.nuget\\packages\\asprise-ocr-dll-bundle-64/15.3.1\\lib/net40/asprise-ocr-dll-bundle-64.dll"
       ]
     }
   ],

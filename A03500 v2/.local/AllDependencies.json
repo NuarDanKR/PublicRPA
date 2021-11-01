@@ -2376,6 +2376,7 @@
       "path": "docxcore/1.0.9",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "docxcore.1.0.9.nupkg.sha512",
         "docxcore.nuspec",
         "lib/net471/DocXCore.dll",
@@ -2544,6 +2545,7 @@
       "path": "microsoft.extensions.dependencymodel/2.0.4",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net451/Microsoft.Extensions.DependencyModel.dll",
@@ -3293,6 +3295,7 @@
       "path": "system.drawing.common/4.5.0-preview2-26406-04",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -3699,6 +3702,7 @@
       "path": "system.io.packaging/4.4.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net46/System.IO.Packaging.dll",
@@ -5023,6 +5027,7 @@
       "path": "system.security.principal.windows/4.4.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net46/System.Security.Principal.Windows.dll",
@@ -6410,9 +6415,9 @@
     "restore": {
       "projectUniqueName": "A03500",
       "projectName": "A03500",
-      "projectPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\Sources\\A03500 v2\\.local",
+      "projectPath": "C:\\Users\\DW\\Desktop\\A03500 v2\\.local",
       "packagesPath": "C:\\Users\\DW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\Sources\\A03500 v2\\.local"
+      "outputPath": "C:\\Users\\DW\\Desktop\\A03500 v2\\.local"
     },
     "frameworks": {
       "net461": {
