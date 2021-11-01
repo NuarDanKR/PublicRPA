@@ -196,8 +196,8 @@
         </Sequence>
       </If.Else>
     </If>
-    <dm:Mail_첨부파일_저장 in_MailMessage="{x:Null}" in_str폴더경로_첨부파일저장="{x:Null}" sap:VirtualizedContainerService.HintSize="797,22" sap2010:WorkflowViewState.IdRef="Mail_첨부파일_저장_2" out_ls파일경로_다수첨부파일="[ls_Attach]" out_str파일경로_1개첨부파일="[str_Attach]" />
-    <Assign sap:VirtualizedContainerService.HintSize="797,60" sap2010:WorkflowViewState.IdRef="Assign_4">
+    <dm:Mail_첨부파일_저장 sap:VirtualizedContainerService.HintSize="797,22" sap2010:WorkflowViewState.IdRef="Mail_첨부파일_저장_2" in_MailMessage="[Mail]" in_str폴더경로_첨부파일저장="[in_Config(&quot;input folder&quot;).ToString]" out_ls파일경로_다수첨부파일="[ls_Attach]" out_str파일경로_1개첨부파일="[str_Attach]" />
+    <Assign DisplayName="Assign - 메일 판단" sap:VirtualizedContainerService.HintSize="797,60" sap2010:WorkflowViewState.IdRef="Assign_4">
       <Assign.To>
         <OutArgument x:TypeArguments="s:String[]">[out_AttachFiles]</OutArgument>
       </Assign.To>
