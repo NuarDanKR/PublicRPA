@@ -291,19 +291,6 @@
           "lib/net40/Renci.SshNet.dll": {}
         }
       },
-      "System.IO.Compression.ZipFile/4.3.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.IO.Compression.FileSystem",
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net46/_._": {}
-        },
-        "runtime": {
-          "lib/net46/System.IO.Compression.ZipFile.dll": {}
-        }
-      },
       "System.ValueTuple/4.5.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1222,6 +1209,8 @@
         "lib/net45/.settings/Release/settings-590bb27b.json",
         "lib/net45/.settings/Release/settings-9e9290da.json",
         "lib/net45/DongwonCommonLibrary.dll",
+        "lib/net45/Exceptions_Screenshots/ExceptionScreenshot_210909.011606.png",
+        "lib/net45/Exceptions_Screenshots/ExceptionScreenshot_210909.011809.png",
         "lib/net45/project.json"
       ]
     },
@@ -1498,45 +1487,6 @@
         "lib/wp8/Renci.SshNet.xml",
         "ssh.net.2016.1.0.nupkg.sha512",
         "ssh.net.nuspec"
-      ]
-    },
-    "System.IO.Compression.ZipFile/4.3.0": {
-      "sha512": "G4HwjEsgIwy3JFBduZ9quBkAu+eUwjIdJleuNSgmUojbH6O3mlvEIme+GHx/cLlTAPcrnnL7GqvB9pTlWRfhOg==",
-      "type": "package",
-      "path": "system.io.compression.zipfile/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.IO.Compression.ZipFile.dll",
-        "lib/netstandard1.3/System.IO.Compression.ZipFile.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net46/System.IO.Compression.ZipFile.dll",
-        "ref/netstandard1.3/System.IO.Compression.ZipFile.dll",
-        "ref/netstandard1.3/System.IO.Compression.ZipFile.xml",
-        "ref/netstandard1.3/de/System.IO.Compression.ZipFile.xml",
-        "ref/netstandard1.3/es/System.IO.Compression.ZipFile.xml",
-        "ref/netstandard1.3/fr/System.IO.Compression.ZipFile.xml",
-        "ref/netstandard1.3/it/System.IO.Compression.ZipFile.xml",
-        "ref/netstandard1.3/ja/System.IO.Compression.ZipFile.xml",
-        "ref/netstandard1.3/ko/System.IO.Compression.ZipFile.xml",
-        "ref/netstandard1.3/ru/System.IO.Compression.ZipFile.xml",
-        "ref/netstandard1.3/zh-hans/System.IO.Compression.ZipFile.xml",
-        "ref/netstandard1.3/zh-hant/System.IO.Compression.ZipFile.xml",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.io.compression.zipfile.4.3.0.nupkg.sha512",
-        "system.io.compression.zipfile.nuspec"
       ]
     },
     "System.ValueTuple/4.5.0": {
@@ -2109,7 +2059,6 @@
     "": [],
     ".NETFramework,Version=v4.6.1": [
       "DongwonCommonLibrary >= 1.0.7632.26420 <= 1.0.7632.26420",
-      "System.IO.Compression.ZipFile >= 4.3.0 <= 4.3.0",
       "UiPath.Credentials.Activities >= 1.1.6479.13204 <= 1.1.6479.13204",
       "UiPath.Excel.Activities >= 2.7.2 <= 2.7.2",
       "UiPath.Mail.Activities >= 1.7.2 <= 1.7.2",
@@ -2122,11 +2071,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "A03200_노무비_현황",
-      "projectName": "A03200_노무비_현황",
-      "projectPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A03200_노무비_현황\\.local",
+      "projectUniqueName": "A03600 v1",
+      "projectName": "A03600 v1",
+      "projectPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A03600 v1\\.local",
       "packagesPath": "C:\\Users\\DW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A03200_노무비_현황\\.local"
+      "outputPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A03600 v1\\.local"
     },
     "frameworks": {
       "net461": {
@@ -2135,11 +2084,6 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[1.0.7632.26420, 1.0.7632.26420]"
-          },
-          "System.IO.Compression.ZipFile": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[4.3.0, 4.3.0]"
           },
           "UiPath.Credentials.Activities": {
             "include": "Runtime",

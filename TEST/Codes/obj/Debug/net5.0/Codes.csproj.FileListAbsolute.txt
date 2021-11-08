@@ -1,0 +1,16 @@
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\bin\Debug\net5.0\Codes.exe
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\bin\Debug\net5.0\Codes.deps.json
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\bin\Debug\net5.0\Codes.runtimeconfig.json
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\bin\Debug\net5.0\Codes.runtimeconfig.dev.json
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\bin\Debug\net5.0\Codes.dll
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\bin\Debug\net5.0\ref\Codes.dll
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\bin\Debug\net5.0\Codes.pdb
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\obj\Debug\net5.0\Codes.csproj.AssemblyReference.cache
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\obj\Debug\net5.0\Codes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\obj\Debug\net5.0\Codes.AssemblyInfoInputs.cache
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\obj\Debug\net5.0\Codes.AssemblyInfo.cs
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\obj\Debug\net5.0\Codes.csproj.CoreCompileInputs.cache
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\obj\Debug\net5.0\Codes.dll
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\obj\Debug\net5.0\ref\Codes.dll
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\obj\Debug\net5.0\Codes.pdb
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Codes\obj\Debug\net5.0\Codes.genruntimeconfig.cache

@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "rjbf8Q9uwhp94mYoT8R09z2BSV+znthQa4mYzUMv7g/RWaq2dNMfA6vYM4fVBP4LsgClWk/Mb0eudI5ee0tL5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\TEST\\Codes\\Codes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DW\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\DW\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\DW\\.nuget\\packages\\nightcore.interop.imm32\\0.0.2\\nightcore.interop.imm32.0.0.2.nupkg.sha512",
+    "C:\\Users\\DW\\.nuget\\packages\\nightcore.interop.user32\\0.0.2\\nightcore.interop.user32.0.0.2.nupkg.sha512",
+    "C:\\Users\\DW\\.nuget\\packages\\nightcore.interop.win32\\0.0.2\\nightcore.interop.win32.0.0.2.nupkg.sha512",
+    "C:\\Users\\DW\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\DW\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\DW\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\DW\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\DW\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\DW\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "C:\\Users\\DW\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\DW\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

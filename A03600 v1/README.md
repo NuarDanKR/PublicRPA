@@ -1,28 +1,3 @@
-#  노무비 현황 자료 취합 RPA
-
-* 프로세스 설명: 동원 건설산업 자체 건설전용 ERP에서 노무비 관련 Excel 자료와 PDF 자료를 자동으로 다운받아서 취합후 담당자에게 메일 발송
-
-* AS-IS : 18 Hrs/Yr
-* TO-BE : 0 Hrs/Yr
-
-* Dependencies
-  * Activities
-    * Donwong Common Libraries
-    * Excel Activities
-    * JAVA Bridge
-  * Application Programmes
-    * i-COD 2.0 (동원 건설 자체 개발 ERP , JAVA)
-
-- Designed By Nuar
-
-- 동원 건설산업 자체 건설전용 ERP에서 노무비 관련 Excel 자료와 PDF 자료를 자동으로 다운받아서 취합후 담당자에게 메일 발송
-
-
-
-
----
-## FrameWokr Explanation
-
 ### Documentation is included in the Documentation folder ###
 
 [ReFrameWork Documentation](https://github.com/UiPath/ReFrameWork/blob/master/Documentation/REFramework%20documentation.pdf)

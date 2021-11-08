@@ -1,0 +1,5 @@
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Csharp\obj\Debug\net5.0\Csharp.csproj.AssemblyReference.cache
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Csharp\obj\Debug\net5.0\Csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Csharp\obj\Debug\net5.0\Csharp.AssemblyInfoInputs.cache
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Csharp\obj\Debug\net5.0\Csharp.AssemblyInfo.cs
+C:\Users\DW\Desktop\Devs\UiPath\PublicRPA\TEST\Csharp\obj\Debug\net5.0\Csharp.csproj.CoreCompileInputs.cache
