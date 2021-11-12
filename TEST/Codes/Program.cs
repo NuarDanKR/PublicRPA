@@ -19,14 +19,17 @@ namespace Codes
             Console.WriteLine(isKorean(args[0]));
         }
         
-        static bool isKorean(String pname)
+        static int isKorean(String pname)
         {
-                  
+            /* 
+                Return 값 설명
+                0: Null / 1: 한국어 / 2: 영어 
+            */
                      
             if (Process.GetProcessesByName(pname).FirstOrDefault() == null)
             {
                 Console.WriteLine("프로세스 발견 못함");
-                return;
+                return 0;
             }
                 
         
@@ -35,10 +38,10 @@ namespace Codes
             IntPtr status = SendMessage(hime, WM_IME_CONTROL, new IntPtr(0x5), new IntPtr(0));
         
             if (status.ToInt32() != 0) // 한글인경우
-                return true;
+                return 1;
             
             else
-                return false;
+                return 2;
         }     
        
     }
