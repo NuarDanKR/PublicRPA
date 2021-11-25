@@ -2342,9 +2342,9 @@
     "restore": {
       "projectUniqueName": "A03600 v1",
       "projectName": "A03600 v1",
-      "projectPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A03600 v1\\.local",
+      "projectPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A03600_v1\\.local",
       "packagesPath": "C:\\Users\\DW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A03600 v1\\.local"
+      "outputPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A03600_v1\\.local"
     },
     "frameworks": {
       "net461": {

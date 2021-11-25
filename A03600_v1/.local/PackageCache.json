@@ -146,6 +146,24 @@
     },
     {
       "Package": {
+        "Id": "UiPath.PDF.Activities",
+        "Version": "3.4.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\DW\\.nuget\\packages\\bitmiracle.docotic.pdf/7.5.11645\\lib/net46/BitMiracle.Docotic.Pdf.dll",
+        "C:\\Users\\DW\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\DW\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\DW\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\DW\\.nuget\\packages\\uipath.ocr.contracts/2.9.1\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\DW\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.Activities.Design.dll",
+        "C:\\Users\\DW\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.Activities.dll",
+        "C:\\Users\\DW\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.Telemetry.dll",
+        "C:\\Users\\DW\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.dll",
+        "C:\\Users\\DW\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll"
+      ]
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
         "Version": "19.10.1"
       },
@@ -209,24 +227,6 @@
         "C:\\Users\\DW\\.nuget\\packages\\uipath.vision/2.0.0\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
         "C:\\Users\\DW\\.nuget\\packages\\uipath.vision/2.0.0\\lib/net452/UiPath.Vision.Tesseract.dll",
         "C:\\Users\\DW\\.nuget\\packages\\uipath.vision/2.0.0\\lib/net452/UiPath.Vision.dll"
-      ]
-    },
-    {
-      "Package": {
-        "Id": "UiPath.PDF.Activities",
-        "Version": "3.4.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\DW\\.nuget\\packages\\bitmiracle.docotic.pdf/7.5.11645\\lib/net46/BitMiracle.Docotic.Pdf.dll",
-        "C:\\Users\\DW\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\DW\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\DW\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\DW\\.nuget\\packages\\uipath.ocr.contracts/2.9.1\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\DW\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.Activities.Design.dll",
-        "C:\\Users\\DW\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.Activities.dll",
-        "C:\\Users\\DW\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.dll",
-        "C:\\Users\\DW\\.nuget\\packages\\uipath.pdf.activities/3.4.1\\lib/net461/UiPath.PDF.Telemetry.dll",
-        "C:\\Users\\DW\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll"
       ]
     }
   ],
