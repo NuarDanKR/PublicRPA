@@ -1,13 +1,8 @@
-# 접수문서 OCR 변환
+# 근재증권 만료임박 및 미비 알람
 
-## Dependencies
-* Abbyy OCR
-* Google Cloud Vision
-* Small PDF
-
-## 설명
-* 종이 문서, 수정 불가능한 문서들을 RPA가 분류하여 솔루션에 맞는 문서 변환 실시
-* RPA의 역학을 문서를 분류해주는 기능이 주
+* 공사현장 하도급 업체 & 협력사 소속의 근로자들의 근재 증권 정보 확인
+* 해당 업체의 근재 증권이 만료가 임박하면 I-COD 상의 휴대 전화 정보를 가져옴
+* 해당 휴대전화 번호를 이용해 담당자에게 알림 문자 발송
 
 ### Documentation is included in the Documentation folder ###
 

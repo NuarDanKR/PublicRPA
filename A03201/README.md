@@ -1,13 +1,9 @@
-# 접수문서 OCR 변환
+# 외주 기성현황 내용정리
 
-## Dependencies
-* Abbyy OCR
-* Google Cloud Vision
-* Small PDF
+* 외주 기성 현황 내용을 엑셀로 정리
+* AS-IS -> TO-BE : 200hrs/yr 절감
 
-## 설명
-* 종이 문서, 수정 불가능한 문서들을 RPA가 분류하여 솔루션에 맞는 문서 변환 실시
-* RPA의 역학을 문서를 분류해주는 기능이 주
+---
 
 ### Documentation is included in the Documentation folder ###
 

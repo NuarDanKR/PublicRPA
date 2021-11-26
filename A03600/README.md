@@ -1,13 +1,9 @@
-# 접수문서 OCR 변환
-
-## Dependencies
-* Abbyy OCR
-* Google Cloud Vision
-* Small PDF
+# 원인자 부담금 세금계산서 발행
 
 ## 설명
-* 종이 문서, 수정 불가능한 문서들을 RPA가 분류하여 솔루션에 맞는 문서 변환 실시
-* RPA의 역학을 문서를 분류해주는 기능이 주
+* 공사현장에서 협력업체 & 하도급사가 발생시키는 폐기물, 공과금액을 분담하는 업무 프로세스
+* 해당 프로세스 중 세금 계산서 발행 작업 (SAP)를 자동화
+
 
 ### Documentation is included in the Documentation folder ###
 

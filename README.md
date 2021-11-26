@@ -1,7 +1,46 @@
 # PublicRPA
 Public RPA(UiPath) source of Dongwon Construction Industry 
-<br>
-<br>
+<br><br>
+
+## 견적 입찰 내역 정리 및 DB화
+2021.11~2021.11(1개월)
+- 설명 링크 참조
+
+GitHub 링크:
+https://github.com/NuarDanKR/PublicRPA/tree/main/A03700
+<br><br>
+
+
+## 원인자 부담금 폐기물 처리비용 세금계산서 발행 자동화
+2021.11~2021.11(1개월)
+- 설명 링크 참조
+
+GitHub 링크:
+https://github.com/NuarDanKR/PublicRPA/tree/main/A03600
+<br><br>
+
+
+## 현장 접수 문서 변환
+2021.10~2021.11(1개월)
+- 설명 추가 예정
+
+GitHub 링크:
+https://github.com/NuarDanKR/PublicRPA/tree/main/A03500_v2
+<br><br>
+
+
+## 집합건물 채권 처리
+2021.10~2021.10(1개월)
+
+- PM 사업부에서 관리하는 집합 건물의 채권을 처리하는 RPA
+- 해당 채권 리스트(SAP)에는 고유번호가 없으므로, 이름 + 현장 + 동/호를 통해 키값화
+- 해당 키에 해당하는 목록을 미수금, 선수금 별로 정리
+- 키가 같고, 선수금의 금액과 미수금의 항목 두개(공급가액, VAT)가 같으면 같은항목으로 처리
+
+GitHub 링크:
+https://github.com/NuarDanKR/PublicRPA/tree/main/A03400
+<br><br>
+
 ## 근재 증권 임박 알림 마감 SMS 안내
 2021.10~2021.10(1개월)
 - 현장별 협력업체의 근재 증권 DB를 가져옴
@@ -9,7 +48,7 @@ Public RPA(UiPath) source of Dongwon Construction Industry
 - 해당 업체의 근재 만료일이 1달 이내로 도래 예정이면 SMS 발송
 
 GitHub 링크:
-https://github.com/NuarDanKR/PublicRPA/tree/main/A03300%20%EA%B7%BC%EC%9E%AC%20%EB%AF%B8%EB%B9%84%20%EC%95%8C%EB%9E%8C
+https://github.com/NuarDanKR/PublicRPA/tree/main/A03300
 <br><br>
 
 ## 집합건물 채권 처리
@@ -22,7 +61,7 @@ https://github.com/NuarDanKR/PublicRPA/tree/main/A03300%20%EA%B7%BC%EC%9E%AC%20%
 - 상계처리 되지 못한 목록은 담당자에게 메일 발송
 
 GitHub 링크:
-https://github.com/NuarDanKR/PublicRPA/tree/main/A3400%20%EC%A7%91%ED%95%A9%EA%B1%B4%EB%AC%BC%20%EC%B1%84%EA%B6%8C%20%EC%B2%98%EB%A6%AC
+https://github.com/NuarDanKR/PublicRPA/tree/main/A3400
 <br><br>
 
 ## 외주비 기성 현황 자료 정리
@@ -31,7 +70,7 @@ https://github.com/NuarDanKR/PublicRPA/tree/main/A3400%20%EC%A7%91%ED%95%A9%EA%B
 - 해당 DB를 양식에 맞게 엑셀 자동화 하여 정리
 
 GitHub 링크:
-https://github.com/NuarDanKR/PublicRPA/tree/main/A03201%20%EC%99%B8%EC%A3%BC%EB%B9%84%20%EC%A0%95%EB%A6%AC
+https://github.com/NuarDanKR/PublicRPA/tree/main/A03201
 <br><br>
 
 ## 노무비 자료 취합
@@ -39,4 +78,4 @@ https://github.com/NuarDanKR/PublicRPA/tree/main/A03201%20%EC%99%B8%EC%A3%BC%EB%
 - 동원 건설산업 자체 건설전용 ERP에서 노무비 관련 Excel 자료와 PDF 자료를 자동으로 다운받아서 취합후 담당자에게 메일 발송
 
 GitHub 링크:
-https://github.com/NuarDanKR/PublicRPA/tree/main/A03200_노무비_현황<br><br>
+https://github.com/NuarDanKR/PublicRPA/tree/main/A03200<br><br>

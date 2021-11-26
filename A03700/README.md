@@ -1,3 +1,11 @@
+# 견적 입찰 이력 정리
+
+## 설명
+* 동원 건설의 결재 기안문을 정리하여 DB화 하는 작업
+* 결재 기안문 형식은 통일이 되어있지 않고, 2~3가지 형태를 바꿔서 사용함
+* 현장에 맞는 양식을 사용하며 입찰 횟수마다 TABLE 형태가 다름 (Column 수 상이)
+* 이를 하나로 통일해서 취합하고 누적된 DB를 만드는 RPA
+
 ### Documentation is included in the Documentation folder ###
 
 [ReFrameWork Documentation](https://github.com/UiPath/ReFrameWork/blob/master/Documentation/REFramework%20documentation.pdf)
