@@ -62,6 +62,15 @@
           "lib/net40-client/CsvHelper.dll": {}
         }
       },
+      "DatatableToHTML.Activities/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/DataTableToHtmlTable.dll": {}
+        }
+      },
       "DocumentFormat.OpenXml/2.5.0": {
         "type": "package",
         "compile": {
@@ -1184,6 +1193,18 @@
         "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.xml"
       ]
     },
+    "DatatableToHTML.Activities/2.1.0": {
+      "sha512": "NzWSVFoUuaPmNDt1na1aRiIoyKLXZEDGfFHIacs1EHvQgPufIw/MropLATIegyj58IVg4qXXdN0Z6PahP+roEA==",
+      "type": "package",
+      "path": "datatabletohtml.activities/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "datatabletohtml.activities.2.1.0.nupkg.sha512",
+        "datatabletohtml.activities.nuspec",
+        "lib/DataTableToHtmlTable.dll",
+        "lib/DataTableToHtmlTable.pdb"
+      ]
+    },
     "DocumentFormat.OpenXml/2.5.0": {
       "sha512": "H5jnox0hcLwzAjrpNqDPIItjh7dplF1kk1z8LatpI2h75wBgps1MepEttJFKs7xedQReCMHA0tGpNI0H2B+Mrg==",
       "type": "package",
@@ -2058,6 +2079,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "DatatableToHTML.Activities >= 2.1.0 <= 2.1.0",
       "DongwonCommonLibrary >= 1.0.7632.26420 <= 1.0.7632.26420",
       "UiPath.Credentials.Activities >= 1.1.6479.13204 <= 1.1.6479.13204",
       "UiPath.Excel.Activities >= 2.7.2 <= 2.7.2",
@@ -2071,15 +2093,20 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "A03600 v1",
-      "projectName": "A03600 v1",
-      "projectPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A03600 v1\\.local",
+      "projectUniqueName": "Dongwong SCI WorkFrame",
+      "projectName": "Dongwong SCI WorkFrame",
+      "projectPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\FrameWork\\.local",
       "packagesPath": "C:\\Users\\DW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A03600 v1\\.local"
+      "outputPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\FrameWork\\.local"
     },
     "frameworks": {
       "net461": {
         "dependencies": {
+          "DatatableToHTML.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[2.1.0, 2.1.0]"
+          },
           "DongwonCommonLibrary": {
             "include": "Runtime",
             "target": "Package",

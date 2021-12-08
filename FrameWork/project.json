@@ -1,8 +1,9 @@
 {
-  "name": "A03600 v1",
-  "description": "원인자 부담금 전자세금계산서 발행",
+  "name": "Dongwong SCI WorkFrame",
+  "description": "RPA WorkFrame for Dongwon Construction Industry",
   "main": "Main.xaml",
   "dependencies": {
+    "DatatableToHTML.Activities": "[2.1.0]",
     "DongwonCommonLibrary": "[1.0.7632.26420]",
     "UiPath.Credentials.Activities": "[1.1.6479.13204]",
     "UiPath.Excel.Activities": "[2.7.2]",
@@ -31,7 +32,8 @@
     "libraryOptions": {
       "includeOriginalXaml": false,
       "privateWorkflows": []
-    }
+    },
+    "fileInfos": []
   },
   "expressionLanguage": "VisualBasic"
 }
