@@ -2095,9 +2095,9 @@
     "restore": {
       "projectUniqueName": "A04000",
       "projectName": "A04000",
-      "projectPath": "C:\\Users\\DW\\Desktop\\Devs\\A04000\\.local",
+      "projectPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A04000\\.local",
       "packagesPath": "C:\\Users\\DW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DW\\Desktop\\Devs\\A04000\\.local"
+      "outputPath": "C:\\Users\\DW\\Desktop\\Devs\\UiPath\\PublicRPA\\A04000\\.local"
     },
     "frameworks": {
       "net461": {

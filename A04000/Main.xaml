@@ -71,7 +71,6 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>UiPath.Studio.Plugin.Workflow</AssemblyReference>
       <AssemblyReference>UiPath.Database</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <StateMachine InitialState="{x:Reference __ReferenceID0}" sap2010:Annotation.AnnotationText="**** 동원 건설산업 데이터 테이블 Frame Work&#xA;&#xA;WorkFrame 설명&#xA;&#xA;1. 데이터 테이블의 하나의 Row가 하나의 Transaction임&#xA;-&gt; 데이터 테이블 정의는 Init&gt;Set Transaction Data에서 정의&#xA;&#xA;2. Transaction의 ACID 특성으로 중단시 Init 으로 리턴&#xA;-&gt; retry 횟수는 Config에서 정의 가능&#xA;&#xA;3. Init은 반복되지 않는 초기 작업만을 정의&#xA;-&gt; Config 파일을 읽고 Transaction을 정의하는 곳&#xA;&#xA;4. Transaction 처러시 Transaction Data에 TransactionItem(&quot;RPA결과&quot;) Column에 Exception메시지를 담기로 했으니 Throw만 하면 자동으로 예외처리 되도록 함.&#xA;--------------------------------------------------------------&#xA;변수 및 인자 설명&#xA;&#xA;1. Args : Main의 Arguments로 Parameters (챗봇 실행용)전달&#xA;1-1. in_strChatMail :  챗봇을 실행시킨 사원의 메일 주소&#xA;1-2. in_strChatSABUN : 챗봇을 실행시킨 사원의 사번&#xA;1-3. in_strChatArgs&#xA;&#xA;2. Config&#xA;2-1. \Data\Config.xlsx에서 불러온 데이터&#xA;2-2. 해당 테이블의 열을 Dictionary 형태로 key는 String, Item은 Object로 정의&#xA;2-3. 해당 Dictionary를 통해 Getters&amp;Setters 처럼 사용 가능&#xA;&#xA;- Designed by Nuar" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="949,1144" sap2010:WorkflowViewState.IdRef="StateMachine_1">
@@ -713,7 +712,7 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <Transition.To>
-                            <State x:Name="__ReferenceID2" sap2010:Annotation.AnnotationText="Process stops here" DisplayName="End Process" sap:VirtualizedContainerService.HintSize="789,1331" sap2010:WorkflowViewState.IdRef="State_1" IsFinal="True">
+                            <State x:Name="__ReferenceID2" sap2010:Annotation.AnnotationText="Process stops here" DisplayName="End Process" sap:VirtualizedContainerService.HintSize="192,145" sap2010:WorkflowViewState.IdRef="State_1" IsFinal="True">
                               <State.Entry>
                                 <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="743,1187" sap2010:WorkflowViewState.IdRef="TryCatch_12">
                                   <sap:WorkflowViewStateService.ViewState>
